@@ -1,0 +1,94 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: calc(100% - 22px);
+  font-size: 16px; /* Ajuste do tamanho da fonte */
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px; /* Ajuste do tamanho da fonte */
+}
+
+li strong {
+  color: #555;
+  margin-right: 10px;
+}
+
+li .pedido-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+li .pedido-info span {
+  display: block;
+}
+
+button + button {
+  margin-left: 10px;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+.editar{
+  width: 80px;
+}
+.excluir{
+  width: 80px;
+  background-color: red;
+}
